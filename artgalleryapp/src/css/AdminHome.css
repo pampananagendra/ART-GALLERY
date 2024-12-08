@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+h3{
+	text-decoration: none;
+}
+.arts-shop-main-div{
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.search-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.home-page-img{
+    background-image: url('../imgs//home3.jpg');
+    height: 800px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home-page-img::before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 100%;
+    bottom:0px;
+    height: 50%;
+    background-image: linear-gradient(#222, rgba(151, 151, 151, 0));
+}
+
+.home-page-img-back{
+    position: relative;
+    width: 100%;
+    height: 35%;
+    bottom:0px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgb(126, 126, 126));
+}
+
+
+
+.arts-shop-sub-div{
+    color: #000;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    font-family: "Poppins", sans-serif; 
+    overflow: hidden;
+}
+
+.art-div{
+    /* border: 5px solid red; */
+    
+    margin: 2rem;
+    max-height: 500px;
+    max-width: 400px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.div-cat-op{
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.arts-image{
+    height: 300px;
+    width: 400px;
+    margin-inline: 0px;
+}
+
+.artist-name-h1{
+    position: relative;
+    top:-240px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+
+.general-art{
+    margin:5px;
+    margin-inline: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading-h3{
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-size: 3.5rem;
+}
+
+.content-of-img{
+    color: rgb(242, 243, 244);
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: -10rem;
+}
+
+.cat-img-black{
+    position: relative;
+    height: 50%;
+    width: 100%;
+    top:-150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.art-div:hover{
+	transform: scale(1.05);
+	  transition: transform 0.5s;
+}
